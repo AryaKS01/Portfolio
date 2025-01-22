@@ -1,0 +1,63 @@
+/* General Container Layout */
+.github-stats__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 2rem;
+}
+
+/* Contribution Chart Styling */
+.github-stats__contribution {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contribution-chart {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+/* Grid for Stats and Languages */
+.github-stats__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 100%;
+}
+
+.github-stats__card {
+  background: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.github-stats__image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .github-stats__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .github-stats__card {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .github-stats__card img {
+    max-width: 100%;
+  }
+}
