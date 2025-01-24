@@ -15,7 +15,7 @@ export const projectsData = [
     image: Project2,
     title: "Casio Website Clone",
     category: "B",
-    link: "https://real-estate-project-five.vercel.app/",
+    link: "https://casio-clone-12.netlify.app/",
   },
   {
     id: 3,
