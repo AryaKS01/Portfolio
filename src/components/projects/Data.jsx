@@ -15,7 +15,7 @@ export const projectsData = [
     image: Project2,
     title: "Casio Website Clone",
     category: "B",
-    link: "https://casio-clone-12.netlify.app/",
+    link: "https://beamish-swan-e2cb71.netlify.app/",
   },
   {
     id: 3,
