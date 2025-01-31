@@ -112,39 +112,21 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">10th Board</h3>
-                <span className="qualification__subtitle">
-                  Infant Jesus's School
-                </span>
-                <span className="qualification__subtitle">
-                  Marks - 9.2 CGPA
-                </span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2016
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
               <div></div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">12th Board</h3>
-                <span className="qualification__subtitle">
-                  Sri Chaitanya School
-                </span>
-                <span className="qualification__subtitle">Marks - 68.7%</span>
+                <h3 className="qualification__title">
+                  Full Stack Web Development
+                </h3>
+                <span className="qualification__subtitle">Masai School</span>
+                <br />
+                <span className="qualification__subtitle">Grade - A</span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2018
+                  2025-Present
                 </div>
               </div>
             </div>
@@ -174,16 +156,34 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">
-                  Full Stack Web Development
-                </h3>
-                <span className="qualification__subtitle">Masai School</span>
-                <br />
-                <span className="qualification__subtitle">Grade - A</span>
+                <h3 className="qualification__title">12th Board</h3>
+                <span className="qualification__subtitle">
+                  Sri Chaitanya School
+                </span>
+                <span className="qualification__subtitle">Marks - 68.7%</span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2025-Present
+                  2018
                 </div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">10th Board</h3>
+                <span className="qualification__subtitle">
+                  Infant Jesus's School
+                </span>
+                <span className="qualification__subtitle">
+                  Marks - 9.2 CGPA
+                </span>
+                <div className="qualification__calendar">
+                  <HiOutlineCalendar className="qualification__calendar-icon" />
+                  2016
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
