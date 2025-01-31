@@ -1,6 +1,10 @@
 import React, { useRef } from "react";
 import "./contact.css";
-import { HiOutlineMail, HiOutlineArrowSmRight } from "react-icons/hi";
+import {
+  HiOutlineMail,
+  HiOutlinePhone,
+  HiOutlineArrowSmRight,
+} from "react-icons/hi";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -28,17 +32,27 @@ const Contact = () => {
           <h3 className="contact__title">Talk to me</h3>
 
           <div className="contact__info">
+            {/* Email Card */}
             <div className="contact__card">
               <HiOutlineMail className="contact__card-icon" />
-
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">aryaworks24@gmail.com</span>
-
               <a
-                href="mailto:cyphersylph@gmail.com"
+                href="mailto:aryaworks24@gmail.com"
                 className="contact__button"
               >
                 Write Me{" "}
+                <HiOutlineArrowSmRight className="contact__button-icon" />
+              </a>
+            </div>
+
+            {/* Phone Card */}
+            <div className="contact__card">
+              <HiOutlinePhone className="contact__card-icon" />
+              <h3 className="contact__card-title">Phone</h3>
+              <span className="contact__card-data">+916203763179</span>
+              <a href="tel:+916203763179" className="contact__button">
+                Call Me{" "}
                 <HiOutlineArrowSmRight className="contact__button-icon" />
               </a>
             </div>
