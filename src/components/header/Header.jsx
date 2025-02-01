@@ -69,7 +69,13 @@ const Header = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a download="" href={CV} className="nav__link">
+              <a
+                href="https://resume-builder-test-new.masaischool.com/resume/public?resumeId=679df124f97830ef5e9067cc"
+                className="nav__link"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+              >
                 <HiDownload className="nav__icon" />
                 Resume
               </a>
