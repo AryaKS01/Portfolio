@@ -70,11 +70,25 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
-                href="https://resume-builder-test-new.masaischool.com/resume/public?resumeId=679df124f97830ef5e9067cc"
+                href="#!"
                 className="nav__link"
-                target="_blank"
-                rel="noopener noreferrer"
-                download
+                onClick={(e) => {
+                  e.preventDefault();
+
+                  // Trigger download of local PDF
+                  const downloadLink = document.createElement("a");
+                  downloadLink.href = CV;
+                  downloadLink.download = "AryaKumarSundaram-resume.pdf";
+                  document.body.appendChild(downloadLink);
+                  downloadLink.click();
+                  document.body.removeChild(downloadLink);
+
+                  // Open external URL in new tab
+                  window.open(
+                    "https://resume-builder-test-new.masaischool.com/resume/public?resumeId=679df124f97830ef5e9067cc",
+                    "_blank"
+                  );
+                }}
               >
                 <HiDownload className="nav__icon" />
                 Resume
