@@ -3,8 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 0;
-  gap: 2rem;
+  padding: 1rem 0; /* Reduced padding */
+  gap: 1rem; /* Reduced gap between sections */
 }
 
 /* Contribution Chart Styling */
@@ -16,48 +16,72 @@
 
 .contribution-chart {
   width: 100%;
-  max-width: 600px;
-  border-radius: 10px;
-  border: 1px solid #e0e0e0;
+  max-width: 600px; /* Reduced max width */
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
 }
 
 /* Grid for Stats and Languages */
 .github-stats__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns side by side */
+  gap: 1.5rem; /* Reduced gap between cards */
   width: 100%;
+  max-width: 800px; /* Reduced overall width */
+  padding: 0 1rem;
+  margin: 0 auto; /* Center the grid */
 }
 
 .github-stats__card {
   background: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-  border-radius: 1.25rem;
+  padding: 1rem; /* Reduced padding inside cards */
+  border-radius: 0.75rem;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.github-stats__card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.github-stats__card h3 {
+  margin-bottom: 0.75rem; /* Reduced spacing below heading */
+  color: var(--title-color);
+  font-size: 1.25rem; /* Slightly smaller font size */
 }
 
 .github-stats__image {
   width: 100%;
-  max-width: 400px;
-  border-radius: 8px;
-  margin-top: 1rem;
+  height: auto; /* Let the image scale automatically */
+  object-fit: contain; /* Show the full image without cropping */
+  border-radius: 0.5rem; /* Slightly smaller border radius */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: var(--body-color);
+  margin: 0.5rem auto; /* Reduced margin above/below image */
 }
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .github-stats__grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Stack on mobile */
+    max-width: 600px;
   }
 
-  .github-stats__card {
-    padding: 1rem;
+  .github-stats__card h3 {
+    font-size: 1.125rem; /* Slightly smaller heading on mobile */
   }
 }
 
 @media screen and (max-width: 576px) {
-  .github-stats__card img {
-    max-width: 100%;
+  .github-stats__card {
+    padding: 0.75rem;
+  }
+
+  .github-stats__card h3 {
+    margin-bottom: 0.5rem;
   }
 }

@@ -1,4 +1,4 @@
-import Project1 from "../../assets/journey.png";
+import Project1 from "../../assets/memories.png";
 import Project2 from "../../assets/casio.png";
 import Project3 from "../../assets/hotel.png";
 
@@ -6,12 +6,12 @@ export const projectsData = [
   {
     id: 1,
     image: Project1,
-    title: "Journey Nest",
+    title: "Memories Notes App",
     category: "A",
     description:
-      "A travel listing platform with secure authentication and dynamic data visualization.",
-    link: "https://journeynest.onrender.com/listings",
-    github: "https://github.com/AryaKS01/journey-nest",
+      "A MERN notes app with JWT authentication, CRUD, downloads, and a sleek React/Tailwind UI.",
+    link: "https://memories-a-note-app-main-1efy.vercel.app/",
+    github: "https://github.com/AryaKS01/Memories-a-note-app-main",
   },
   {
     id: 2,

@@ -55,11 +55,12 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Backend Developer</h3>
+      <h3 className="home__subtitle">Full Stack Developer</h3>
       <p className="home__description">
-        Dedicated to building robust and efficient server-side applications.
-        Proficient in modern programming languages and frameworks, with a strong
-        focus on API development, database management, and system architecture.
+        Dedicated to building dynamic and scalable web applications. Proficient
+        in modern front-end and back-end technologies, with a strong focus on
+        API integration, database management, user experience, and system
+        architecture.
       </p>
 
       <a href="#contact" className="button button--flex">

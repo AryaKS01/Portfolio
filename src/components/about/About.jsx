@@ -15,11 +15,14 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            I am Arya Kumar Sundaram, a passionate and dedicated Node.js backend
-            developer, specializing in building robust and scalable web
-            applications. As a fresher in the industry, I am eager to apply my
-            knowledge and skills to contribute to dynamic projects and
-            collaborate with talented teams.
+            I am Arya Kumar Sundaram, a passionate and dedicated Full Stack
+            Developer, specializing in building robust, scalable, and
+            user-friendly web applications. As a fresher in the industry, I am
+            eager to apply my skills in both frontend and backend development to
+            create seamless and efficient applications. I am excited to
+            collaborate with talented teams, contribute to dynamic projects, and
+            continuously enhance my expertise across the entire web development
+            stack.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV

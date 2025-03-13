@@ -85,7 +85,7 @@ const Header = () => {
 
                   // Open external URL in new tab
                   window.open(
-                    "https://resume-builder-test-new.masaischool.com/resume/public?resumeId=679df124f97830ef5e9067cc",
+                    "https://resume-builder-test-new.masaischool.com/resume/public?resumeId=67d2baabdae27d0d642d20fa",
                     "_blank"
                   );
                 }}
